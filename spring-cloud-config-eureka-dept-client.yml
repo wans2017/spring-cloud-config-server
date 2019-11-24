@@ -33,7 +33,7 @@ spring:
 eureka:
   client: 
     service-url: 
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://192.9.203.190:7011/eureka/
     instance:
     instance-id: wans-config-dept8001                              # 修改服务名称，例如：wans-pc:spring-cloud-dept-8001:8001
     prefer-ip-address: true                                 # 访问路径可以显示IP地址
@@ -70,7 +70,7 @@ spring:
 eureka:
   client: 
     service-url: 
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://192.9.203.190:7011/eureka/
     instance:
     instance-id: wans-config-dept8001                              # 修改服务名称，例如：wans-pc:spring-cloud-dept-8001:8001
     prefer-ip-address: true                                 # 访问路径可以显示IP地址
