@@ -1,0 +1,41 @@
+# 请使用UTF-8编码格式保存
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+server:
+  port: 7001	# 端口号
+
+spring: 
+  profiles: dev
+  application:
+    name: spring-cloud-config-eureka-server
+
+eureka:
+  instance:
+    hostname: eureka7001.com
+  client: 
+    register-with-eureka: false
+    futch-registry: false
+    service-url: 
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+---
+server:
+  port: 7001
+
+spring:
+  profiles: test
+  application:
+    name: spring-cloud-config-eureka-server
+
+eureka:
+  instance:
+    hostname: eureka7001.com
+  client: 
+    register-with-eureka: false
+    futch-registry: false
+    service-url: 
+      defaultZone: http://eureka7001.com:7001/eureka/
