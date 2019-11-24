@@ -20,7 +20,7 @@ eureka:
     register-with-eureka: false
     futch-registry: false
     service-url: 
-      defaultZone: eureka7011.com:7011/eureka/
+      defaultZone: http://eureka7011.com:7011/eureka/
 
 ---
 server:
@@ -38,4 +38,4 @@ eureka:
     register-with-eureka: false
     futch-registry: false
     service-url: 
-      defaultZone: eureka7011.com:7011/eureka/
+      defaultZone: http://eureka7011.com:7011/eureka/
