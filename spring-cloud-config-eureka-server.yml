@@ -20,7 +20,7 @@ eureka:
     register-with-eureka: false
     futch-registry: false
     service-url: 
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:7011/eureka/
 
 ---
 server:
@@ -38,4 +38,4 @@ eureka:
     register-with-eureka: false
     futch-registry: false
     service-url: 
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:7011/eureka/
