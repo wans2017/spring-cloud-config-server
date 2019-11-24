@@ -6,7 +6,7 @@ spring:
 
 ---
 server:
-  port: 70011	# 端口号
+  port: 7011	# 端口号
 
 spring: 
   profiles: dev
@@ -15,7 +15,7 @@ spring:
 
 eureka:
   instance:
-    hostname: eureka70011.com
+    hostname: eureka7011.com
   client: 
     register-with-eureka: false
     futch-registry: false
@@ -24,7 +24,7 @@ eureka:
 
 ---
 server:
-  port: 70011
+  port: 7011
 
 spring:
   profiles: test
@@ -33,7 +33,7 @@ spring:
 
 eureka:
   instance:
-    hostname: eureka70011.com
+    hostname: eureka7011.com
   client: 
     register-with-eureka: false
     futch-registry: false
